@@ -5,7 +5,7 @@ struct RotatedBadgeSymbol: View {
     
     var body: some View {
         BadgeSymbol()
-            .padding(-10)
+            .padding(-60)
             .rotationEffect(angle, anchor: .bottom)
     }
 }
